@@ -1,35 +1,41 @@
-.wrapper {
-  max-width: 1920px;
+.api-box {
   width: 500px;
-  height: 500px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 15px;
+  padding: 8px;
 
-  transform: translateX(-30%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   background-color: cornsilk;
   border: 10px solid cornsilk;
-  border-radius: 20px;
+  border-radius: 7px;
 }
 
-.wrapper h1 {
+.api-box ul {
+  margin-left: 1em;
+}
+
+.api-box h1 {
   font-size: 35px;
 }
 
-.wrapper h2 {
+.api-box h2 {
   font-size: 30px;
 }
 
-.wrapper h3 {
+.api-box h3 {
   font-size: 25px;
 }
 
-.wrapper a {
+.api-box a {
   font-size: 30px;
 }
 
-.wrapper ul li a {
+.api-box ul li {
+  margin-top: 5px;
+}
+
+.api-box ul li a {
   font-size: 19px;
 }
